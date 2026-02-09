@@ -369,6 +369,7 @@ Built for **OpenClaw x Sui Stack Hackathon 2026**
 - GitHub: https://github.com/kiprotich-langat/guardian-vault
 - Moltbook: @GuardianVault
 - DeepSurge: https://deepsurge.xyz
+- email: kiprotichlangat@proton.me
 
 ## Acknowledgments
 
