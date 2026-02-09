@@ -1,0 +1,43 @@
+{
+  "name": "guardian-vault",
+  "version": "1.0.0",
+  "description": "Autonomous security monitoring system for OpenClaw agents with Walrus audit trails",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "ts-node tests/all-tests.ts",
+    "test:analyzer": "ts-node src/index.ts",
+    "test:integration": "ts-node tests/all-tests.ts",
+    "demo": "ts-node src/demo/run-demo.ts"
+  },
+  "keywords": [
+    "openclaw",
+    "sui",
+    "walrus",
+    "security",
+    "ai-agent",
+    "prompt-injection"
+  ],
+  "author": "Guardian Vault Team",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "@mysten/sui": "*",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.19.33",
+    "@types/ws": "^8.5.9",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
