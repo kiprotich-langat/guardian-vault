@@ -116,7 +116,7 @@ To get your Sui private key:
 sui client new-address ed25519
 
 # Get testnet tokens
-sui client faucet
+sui client faucet #Outdated, use the link : https://faucet.sui.io/?address=Your address
 
 # Export private key
 sui keytool export --key-identity <your-address>
